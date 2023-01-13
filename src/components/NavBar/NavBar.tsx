@@ -1,5 +1,4 @@
 import { useState } from "react";
-import DarkSideSwitch from "../DarkSideSwitch";
 import NavButtons from "./NavButtons";
 
 const NavBar = () => {
@@ -12,7 +11,7 @@ const NavBar = () => {
 
   return (
     <>
-      <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-gray-900">
+      <nav className=" sticky top-0 z-50 bg-white border-gray-200 drop-shadow-md px-2 sm:px-4 py-2.5 dark:bg-gray-900">
         <div className="container flex flex-wrap items-center justify-between mx-auto">
           <a href="https://flowbite.com/" className="flex items-center">
             <img
